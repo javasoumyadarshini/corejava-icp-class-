@@ -1,0 +1,129 @@
+Microsoft Windows [Version 10.0.22621.1194]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\gitpushprogram>git clone https://github.com/javasoumyadarshini/corejava-icp-class-.git
+Cloning into 'corejava-icp-class-'...
+warning: You appear to have cloned an empty repository.
+
+E:\gitpushprogram>git clone https://github.com/javasoumyadarshini/corejava-icp-class-.git
+fatal: destination path 'corejava-icp-class-' already exists and is not an empty directory.
+
+E:\gitpushprogram>git commit -m "icp program"
+fatal: not a git repository (or any of the parent directories): .git
+
+E:\gitpushprogram>cd corejava-icp-class-
+
+E:\gitpushprogram\corejava-icp-class->git commit -m "icp program"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'LENOVO@LAPTOP-U1S1LAGQ.(none)')
+
+E:\gitpushprogram\corejava-icp-class->git config --global user.email "soumyadarshinisahoo27@gmail.com"
+
+E:\gitpushprogram\corejava-icp-class->git config --global user.name "javasoumyadarshini"
+
+E:\gitpushprogram\corejava-icp-class->git push
+error: src refspec refs/heads/main does not match any
+error: failed to push some refs to 'https://github.com/javasoumyadarshini/corejava-icp-class-.git'
+
+E:\gitpushprogram\corejava-icp-class->git push .
+error: src refspec refs/heads/main does not match any
+error: failed to push some refs to '.'
+
+E:\gitpushprogram\corejava-icp-class->git commit -m "icp program"
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        java programm/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\gitpushprogram\corejava-icp-class->git push
+error: src refspec refs/heads/main does not match any
+error: failed to push some refs to 'https://github.com/javasoumyadarshini/corejava-icp-class-.git'
+
+E:\gitpushprogram\corejava-icp-class->git add .
+
+E:\gitpushprogram\corejava-icp-class->git push
+error: src refspec refs/heads/main does not match any
+error: failed to push some refs to 'https://github.com/javasoumyadarshini/corejava-icp-class-.git'
+
+E:\gitpushprogram\corejava-icp-class->git commit -m "icp program"
+[main (root-commit) 9250105] icp program
+ 3 files changed, 517 insertions(+)
+ create mode 100644 java programm/basic/1.java
+ create mode 100644 java programm/basic/HelloWorld.class
+ create mode 100644 java programm/basic/class 1
+
+E:\gitpushprogram\corejava-icp-class->git push
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 2.62 KiB | 895.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/javasoumyadarshini/corejava-icp-class-.git
+ * [new branch]      main -> main
+
+E:\gitpushprogram\corejava-icp-class->cd "java programm"
+
+E:\gitpushprogram\corejava-icp-class-\java programm>cd basic
+
+E:\gitpushprogram\corejava-icp-class-\java programm\basic>javac 2.java
+
+E:\gitpushprogram\corejava-icp-class-\java programm\basic>java Test
+Hello
+
+E:\gitpushprogram\corejava-icp-class-\java programm\basic>cd..
+
+E:\gitpushprogram\corejava-icp-class-\java programm>cd..
+
+E:\gitpushprogram\corejava-icp-class->git commit -m "icp program"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        java programm/basic/2.java
+        java programm/basic/Test.class
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\gitpushprogram\corejava-icp-class->git push
+Everything up-to-date
+
+E:\gitpushprogram\corejava-icp-class->git add .
+
+E:\gitpushprogram\corejava-icp-class->git commit -m "icp program1"
+[main 1e57cc5] icp program1
+ 2 files changed, 5 insertions(+)
+ create mode 100644 java programm/basic/2.java
+ create mode 100644 java programm/basic/Test.class
+
+E:\gitpushprogram\corejava-icp-class->git add .
+
+E:\gitpushprogram\corejava-icp-class->git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 843 bytes | 843.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/javasoumyadarshini/corejava-icp-class-.git
+   9250105..1e57cc5  main -> main
+
+E:\gitpushprogram\corejava-icp-class->
